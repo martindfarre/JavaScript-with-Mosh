@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script> 
+    function hello() {
+        alert('Holaa');
+    }
+
+    function Pipu() {
+        document.querySelector('h1').innerHTML = randm[(Math.floor(Math.random() * 5))];
+    }
+    function hover() {
+        alert('por aca no!');
+    }
+    let randm = ['Juanfer','Pity Martinez','Oso Pratto','Armani','El taco no'];
+     </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panoramix</title>
+</head>
+<body>
+<h1>Hello Pipu</h1>
+<script src="index.js"> 
+</script>
+
+  <button onclick="hello()">Apretar acá!</button>
+  <button onmouseover="hover()">Pasar por arriba</button>
+  <button onclick="Pipu()">Boton de Adiós</button> 
+    
+</body>
+</html>
