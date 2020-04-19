@@ -34,7 +34,7 @@
  const message = 'This is my first message';
 
  // Stribg Object
- const another = new String('Hi');
+ const another1 = new String('Hi');
 
  // If condition
  //Hour
@@ -182,7 +182,7 @@ do {
 // or true in the condition - while (true)
 
 // Loops for-in - iterate properties in object
-
+/*
 const person = {
     name: 'Tincho',
     age: 26
@@ -190,7 +190,7 @@ const person = {
 
     for( let key in person)
     console.log(key,person[key]);
-
+*/
 const colors = ['red','blue','green'];
 
     for(let index in colors)
